@@ -1,24 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Subscribe</title>
-</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Break the Loop</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@100;300;400&display=swap" rel="stylesheet">
+  </head>
 <body>
-<form
-  action="https://formspree.io/f/xoqgryyo"
-  method="POST"
->
-  <label>
-    Your email:
-    <input type="email" name="email">
-  </label>
-  <label>
-    Your message:
-    <textarea name="message"></textarea>
-  </label>
-  <!-- your other form fields go here -->
-  <button type="submit">Send</button>
-</form></body>
+    <div class="container">
+        <main>
+            <div class="left-column">
+                <header>
+                    <img src="break-the-loop-logo.png" alt="Break the Loop">
+                </header>
+                <section>
+                    <h2>Understanding the Deceptive Design feedback loop
+                    (& what can designers do about it)</h2>
+                </section>
+                <section>
+                    <h3>By Al Weiner & Michael Park</h3>
+                    <h3>Advised by Leah Plunkett and Harry Brignull</h3>
+                </section>
+            </div>
+            <div class="right-column">
+                <section>
+                    <p>Our team of technology designers and a legal expert from Harvard agree that we have a duty to make the internet a place where young people can feel safe.</p>
+                    <p>We wanted to understand the role that technology designers play in protecting youth from Deceptive Designs so we set out to map the system.</p>
+                </section>
+                <section>
+                    <p>A toolkit of subversion emerged.</p>
+                    <p>Coming 2024.</p>
+                  </section>
+                  <section>
+                    <form action="https://formspree.io/f/xoqgryyo" method="POST">
+                        <label for="email">Your email:</label>
+                        <input type="email" id="email" name="email" required>
+                        <button type="submit">Get notified of the release</button>
+                    </form>
+                </section>
+            </div>
+        </main>
+        <footer>
+            <p>© 2024 Alexandra Weiner & Michael Park. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
 </html>
-
